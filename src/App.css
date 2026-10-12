@@ -3,10 +3,11 @@
 }
 
 .login-page {
-  min-height: 100vh;
+  min-height: 100%;
   background: #f8fafc;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   padding: 40px 20px;
 }
@@ -22,10 +23,23 @@
   margin-bottom: 70px;
 }
 
-.brand-logo {
-  width: 150px;
-  height: auto;
-  display: block;
+.brand-wordmark {
+  display: flex;
+  align-items: baseline;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 750;
+  letter-spacing: -1.2px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.brand-sewer {
+  color: #101828;
+}
+
+.brand-scope {
+  color: #1677ff;
 }
 
 /* Heading */

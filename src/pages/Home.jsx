@@ -48,6 +48,7 @@ function Home() {
           <header className="home-topbar">
             <img
               src={SewerScopeLogo}
+              alt="SewerScope"
               className="home-logo"
             />
 

@@ -29,7 +29,7 @@ export default function DemoLayout({ children }) {
 
           <a
             className="demo-case-study"
-            href="#"
+            href="https://shining-growth-724562.framer.app/sewerscope"
             onClick={(e) => e.preventDefault()}
           >
             View the case study ↗

@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom'
-import SewerScopeLogo from '../assets/SewerScopeLogo.svg'
 
 function Login() {
   const navigate = useNavigate()
@@ -14,12 +13,11 @@ function Login() {
       <div className="login-container">
 
         <div className="brand">
-          <img
-            src={SewerScopeLogo}
-            alt="SewerScope"
-            className="brand-logo"
-          />
-        </div>
+  <div className="brand-wordmark">
+    <span className="brand-sewer">Sewer</span>
+    <span className="brand-scope">Scope</span>
+  </div>
+</div>
 
         <div className="login-heading">
           <h1>Welcome back</h1>
