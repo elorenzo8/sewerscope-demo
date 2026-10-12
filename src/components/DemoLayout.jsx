@@ -28,10 +28,12 @@ export default function DemoLayout({ children }) {
           </p>
 
           <a
-            className="demo-case-study"
             href="https://shining-growth-724562.framer.app/sewerscope"
-            onClick={(e) => e.preventDefault()}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="demo-case-study-link"
           >
+            <br/>
             View the case study ↗
           </a>
         </div>
@@ -64,7 +66,7 @@ export default function DemoLayout({ children }) {
         )}
 
         <div className="demo-guide-content">
-          <h2>Functionalities to try</h2>
+          <h2>Functionalities to test</h2>
 
 <div className="demo-guide-divider"></div>
 
