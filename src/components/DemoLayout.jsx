@@ -64,7 +64,7 @@ export default function DemoLayout({ children }) {
         )}
 
         <div className="demo-guide-content">
-          <h2>A few things to try</h2>
+          <h2>Functionalities to try</h2>
 
 <div className="demo-guide-divider"></div>
 

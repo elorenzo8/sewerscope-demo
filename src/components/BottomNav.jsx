@@ -25,7 +25,7 @@ function BottomNav({ variant = 'dark' }) {
         className={`nav-item ${isMap ? 'active' : ''}`}
         onClick={() => navigate('/inspection/map')}
       >
-        <span>⌖</span>
+        <span className="map-nav-icon">⌖</span>
         <p>Map<br />View</p>
       </button>
 

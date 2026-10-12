@@ -554,8 +554,20 @@ body {
 }
 
 .shared-bottom-nav .nav-item span {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.2;
+}
+
+.shared-bottom-nav .nav-item span.map-nav-icon {
+  font-size: 30px;
+  line-height: 1;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.shared-bottom-nav .nav-item .map-nav-icon {
+  font-size: 25px;
+  line-height: 1;
 }
 
 .shared-bottom-nav .nav-item p {
@@ -2193,13 +2205,11 @@ body {
   padding: 30px clamp(30px, 7vw, 120px);
   box-sizing: border-box;
 
-  background:
-    radial-gradient(
-      ellipse at 50% 48%,
-      rgba(130, 186, 255, 0.20),
-      transparent 43%
-    ),
-    #f4f8fd;
+background-image: url('./assets/demo-background.png');
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+    
 
   color: #071831;
   font-family: Arial, sans-serif;
@@ -2279,6 +2289,7 @@ body {
   margin: 0;
   color: #92a2bc;
   font-size: 13px;
+  
 }
 
 /* CENTER PHONE */
